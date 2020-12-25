@@ -52,3 +52,22 @@ public class CellularAutomataMaze {
                     if((i>((Height/2)-centerRange))&&(i<((Height/2)+centerRange)) && (j>((Width/2)-centerRange)) &&(j<((Width/2)+centerRange))){
                         mat[i][j].setBackground(AliveColors[(int) (Math.random() * (AliveColors.length))]);
                     }
+                    else{
+                        mat[i][j].setBackground(Dead);
+                    }
+                }
+                else {
+                    if (StartRandom) {
+                        if (Math.random() < ChanceOfAliveOnStart) {
+                            mat[i][j].setBackground(AliveColors[(int) (Math.random() * (AliveColors.length))]);
+                        } else {
+                            mat[i][j].setBackground(Dead);
+                        }
+                    } else {
+                        //this is if you want to start either all dead or all alive
+                        if (startAlive) {
+                            mat[i][j].setBackground(AliveColors[(int) (Math.random() * (AliveColors.length))]);
+                        } else {
+                            mat[i][j].setBackground(Dead);
+                        }
+
