@@ -30,3 +30,25 @@ public class CellularAutomataMaze {
     boolean reboot = false;//restarts the maze when amount of changes is passes a point
     double waitTime = .25;
     double ChanceOfAliveOnStart= 0.35;
+
+
+    public CellularAutomataMaze(){
+        GOL = new boolean[Width][Height];
+        //set up the frame
+        frame = new JFrame();
+        frame.setDefaultCloseOperation(3);
+        //set up the panel inside the frame
+        panel = new JPanel();
+        mat = new JPanel[GOL.length][GOL[0].length];
+        panel.setLayout(new GridLayout(mat.length,mat[0].length,1,1));
+
+        for(int i =0;i< mat.length;i++){
+            for(int j =0;j< mat[i].length;j++){
+                mat[i][j] = new JPanel();
+                mat[i][j].setOpaque(true);
+
+                //this is if you want to start with a random amount of alive
+                if(MiddleCenter){
+                    if((i>((Height/2)-centerRange))&&(i<((Height/2)+centerRange)) && (j>((Width/2)-centerRange)) &&(j<((Width/2)+centerRange))){
+                        mat[i][j].setBackground(AliveColors[(int) (Math.random() * (AliveColors.length))]);
+                    }
