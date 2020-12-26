@@ -107,3 +107,19 @@ public class CellularAutomataMaze {
                         }
                     }).start();
                 }
+                else{
+                    start.setText("Start");
+
+
+                }
+                // Runs outside of the Swing UI thread
+
+            }
+        });
+
+        Options.add(start);
+        Bar.add(Options);
+        frame.setJMenuBar(Bar);
+
+        frame.setSize(500,500);
+        frame.setVisible(true);
