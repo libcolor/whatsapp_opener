@@ -82,3 +82,28 @@ public class CellularAutomataMaze {
         frame.add(panel);
         //set up the start button
         Bar = new JMenuBar();
+        Options = new JMenu("Options");
+        start = new JMenuItem("Start");
+
+        start.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                boolean begin = false;
+
+
+                if(start.getText().toString().equals("Start")){
+
+                    start.setText("END");
+
+
+                    new Thread(new Runnable() {
+                        public void run() {
+                            while(start.getText().equals("END")) {
+
+                                ConwayGame();
+
+
+
+                            }
+                        }
+                    }).start();
+                }
