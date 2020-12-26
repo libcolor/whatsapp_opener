@@ -71,3 +71,14 @@ public class CellularAutomataMaze {
                             mat[i][j].setBackground(Dead);
                         }
 
+
+                    }
+                }
+                panel.add(mat[i][j]);
+            }
+
+        }
+        //paint2();
+        frame.add(panel);
+        //set up the start button
+        Bar = new JMenuBar();
