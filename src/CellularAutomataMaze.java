@@ -123,3 +123,18 @@ public class CellularAutomataMaze {
 
         frame.setSize(500,500);
         frame.setVisible(true);
+
+        //set up the board for conways game
+
+
+
+
+    }
+
+    /**
+     * tries calling the run funciton that implements the rules of conways game and alters the panels colors
+     * based on the living or dead idea
+     */
+    public void ConwayGame() {
+        int i = 0;
+        while (i++ < 1) {
