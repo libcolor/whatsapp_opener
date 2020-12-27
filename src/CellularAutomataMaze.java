@@ -155,3 +155,15 @@ public class CellularAutomataMaze {
      * @return all of the neighbors that are alive of point p
      *
      * neighbors are adjacent panels including diagonals
+     */
+    public int AliveMovableNeighbors(JPanel[][] mat, Point p){
+        int result= 0;
+
+        try{//top
+            if(!isAlive(mat[p.x][p.y-1])){
+                result++;
+            }
+        }catch(Exception e){}
+
+        try{//left
+            if(!isAlive(mat[p.x-1][p.y])){
