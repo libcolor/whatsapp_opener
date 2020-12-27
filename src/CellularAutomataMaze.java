@@ -138,3 +138,20 @@ public class CellularAutomataMaze {
     public void ConwayGame() {
         int i = 0;
         while (i++ < 1) {
+            runWithRules(new int[] {1,2,3,4},new int[] {3},1);
+            try {
+                java.lang.Thread.sleep((long)(waitTime*1000));
+            } catch (InterruptedException e) {
+                System.err.println("sleep for conways game");
+            }
+        }
+
+    }
+
+    /**
+     *
+     * @param mat is the matrix that holds all of the panels which are acting as the objects for the game of Life
+     * @param p the point that is getting its neighbors checked
+     * @return all of the neighbors that are alive of point p
+     *
+     * neighbors are adjacent panels including diagonals
