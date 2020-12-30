@@ -177,3 +177,21 @@ public class CellularAutomataMaze {
         }catch(Exception e){}
 
         try{//bottom
+            if(!isAlive(mat[p.x][p.y+1])){
+                result++;
+            }
+        }catch(Exception e){}
+
+        return result;
+    }
+    public int AliveNeighbors(JPanel[][] mat, Point p){
+        int result= 0;
+
+
+        try{//check the top left
+            if(isAlive(mat[p.x-1][p.y-1])){
+                result++;
+            }
+        }catch(Exception e){}
+        try{//top
+            if(isAlive(mat[p.x][p.y-1])){
