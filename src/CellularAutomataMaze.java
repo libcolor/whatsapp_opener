@@ -210,3 +210,20 @@ public class CellularAutomataMaze {
         }catch(Exception e){}
         try{//right
             if(isAlive(mat[p.x+1][p.y])){
+                result++;
+            }
+        }catch(Exception e){}
+        try{//bottom left
+            if(isAlive(mat[p.x-1][p.y+1])){
+                result++;
+            }
+        }catch(Exception e){}
+
+        try{//bottom
+            if(isAlive(mat[p.x][p.y+1])){
+                result++;
+            }
+        }catch(Exception e){}
+        try{//bottom right
+            if(isAlive(mat[p.x+1][p.y+1])){
+                result++;
