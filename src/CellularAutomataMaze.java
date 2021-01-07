@@ -227,3 +227,19 @@ public class CellularAutomataMaze {
         try{//bottom right
             if(isAlive(mat[p.x+1][p.y+1])){
                 result++;
+            }
+        }catch(Exception e){}
+        return result;
+    }
+
+    public static void main(String[] args) {
+        CellularAutomataMaze run = new CellularAutomataMaze();
+
+    }
+    public boolean isAlive(JPanel cur){
+        for(Color v : AliveColors){
+            if(v.equals(cur.getBackground())){
+                return true;
+            }
+
+        }
