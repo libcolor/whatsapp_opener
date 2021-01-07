@@ -243,3 +243,20 @@ public class CellularAutomataMaze {
             }
 
         }
+        return false;
+    }
+
+    public void runWithRules(int[] aliveN, int[] deadN,int iterations){
+        {
+            for(int iterator =0;iterator <iterations;iterator++) {
+                Stack<Point> alterPoints = new Stack<Point>();
+                for (int i = 0; i < mat.length; i++) {
+                    for (int j = 0; j < mat[i].length; j++) {
+                        /**
+                         * the three rules
+                         * if a live cell has two or three neighbors
+                         */
+                        if (isAlive(mat[i][j])) {
+                            int neighbors = AliveNeighbors(mat, new Point(i, j));
+                            boolean temp = true;
+                            for (int z : aliveN) {
