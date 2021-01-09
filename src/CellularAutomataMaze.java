@@ -260,3 +260,21 @@ public class CellularAutomataMaze {
                             int neighbors = AliveNeighbors(mat, new Point(i, j));
                             boolean temp = true;
                             for (int z : aliveN) {
+                                if (z == neighbors) {
+                                    temp = false;
+
+                                }
+                            }
+                            if (temp) {
+                                alterPoints.push(new Point(i, j));
+                            }
+                        } else {
+                            int neighbors = AliveNeighbors(mat, new Point(i, j));
+                            boolean temp = true;
+                            for (int b : deadN) {
+                                if (b == neighbors) {
+                                    temp = false;
+
+                                }
+                            }
+                            if (!temp) {
