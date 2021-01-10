@@ -278,3 +278,13 @@ public class CellularAutomataMaze {
                                 }
                             }
                             if (!temp) {
+                                alterPoints.push(new Point(i, j));
+                            } else if (AliveMovableNeighbors(mat, new Point(i, j)) < 0) {
+                                alterPoints.push(new Point(i, j));
+
+                            }
+                        }
+                    }
+                }
+                int count = 0;
+                while (!alterPoints.isEmpty()) {
