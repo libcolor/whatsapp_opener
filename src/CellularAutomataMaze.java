@@ -346,3 +346,24 @@ public class CellularAutomataMaze {
                  */
                 if (isAlive(mat[i][j])) {
                     int neighbors = AliveNeighbors(mat, new Point(i, j));
+                    if (neighbors == 6 || neighbors == 7 || neighbors == 8  || neighbors ==5|| neighbors ==0) {
+                        alterPoints.push(new Point(i, j));
+
+                    }
+                } else {
+
+                    int neighbors = AliveNeighbors(mat, new Point(i, j));
+                    if (neighbors == 3 ) {
+                        alterPoints.push(new Point(i, j));
+                    }
+                }
+            }
+        }
+        int count = 0;
+        while (!alterPoints.isEmpty()) {
+            count++;
+            Point p = alterPoints.pop();
+            if (isAlive(mat[p.x][p.y])) {
+                mat[p.x][p.y].setBackground(Dead);
+            } else {
+                mat[p.x][p.y].setBackground(AliveColors[(int) (Math.random() * (AliveColors.length))]);
