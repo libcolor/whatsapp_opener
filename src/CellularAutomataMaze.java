@@ -310,3 +310,20 @@ public class CellularAutomataMaze {
                                     //this is if you want to start either all dead or all alive
                                     if (startAlive) {
                                         mat[i][j].setBackground(AliveColors[(int) (Math.random() * (AliveColors.length))]);
+                                    } else {
+                                        mat[i][j].setBackground(Dead);
+                                    }
+
+
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+    public void repaint(JPanel[][] mat){
+        for(int i =0;i< mat.length; i++){
