@@ -367,3 +367,15 @@ public class CellularAutomataMaze {
                 mat[p.x][p.y].setBackground(Dead);
             } else {
                 mat[p.x][p.y].setBackground(AliveColors[(int) (Math.random() * (AliveColors.length))]);
+            }
+        }
+        if (reboot) {
+            if (count > 200) {
+                for (int i = 0; i < mat.length; i++) {
+                    for (int j = 0; j < mat[i].length; j++) {
+                        if (StartRandom) {
+                            if (Math.random() < ChanceOfAliveOnStart) {
+                                mat[i][j].setBackground(AliveColors[(int) (Math.random() * (AliveColors.length))]);
+                            } else {
+                                mat[i][j].setBackground(Dead);
+                            }
