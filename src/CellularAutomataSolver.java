@@ -9,3 +9,4 @@ import java.util.Stack;
 public class CellularAutomataSolver {
     JPanel[][] mat;
     CellularAutomataMaze maze;
+    Stack<Point> wall
