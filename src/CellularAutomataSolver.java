@@ -6,4 +6,5 @@ import java.util.Stack;
  * The problem is that the history of the walls is not preserved aka once you start knocking down walls it starts the maze over
  */
 
-public class CellularAutomata
+public class CellularAutomataSolver {
+    JPanel[][] ma
