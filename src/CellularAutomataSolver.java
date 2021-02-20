@@ -7,4 +7,5 @@ import java.util.Stack;
  */
 
 public class CellularAutomataSolver {
-    JPanel[][] ma
+    JPanel[][] mat;
+    Cellular
