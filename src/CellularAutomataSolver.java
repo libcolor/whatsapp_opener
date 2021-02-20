@@ -8,4 +8,4 @@ import java.util.Stack;
 
 public class CellularAutomataSolver {
     JPanel[][] mat;
-    Cellular
+    CellularAutomataMaze maze;
