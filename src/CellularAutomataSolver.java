@@ -10,4 +10,6 @@ public class CellularAutomataSolver {
     JPanel[][] mat;
     CellularAutomataMaze maze;
     Stack<Point> walls = new Stack<Point>();
-    boolean solved = fal
+    boolean solved = false;
+
+    public C
