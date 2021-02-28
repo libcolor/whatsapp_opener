@@ -12,4 +12,4 @@ public class CellularAutomataSolver {
     Stack<Point> walls = new Stack<Point>();
     boolean solved = false;
 
-    public C
+    public CellularAutomataSol
