@@ -15,4 +15,4 @@ public class CellularAutomataSolver {
     public CellularAutomataSolver() {
         maze = new CellularAutomataMaze();
 
-        ma
+        maze.runWithRule
