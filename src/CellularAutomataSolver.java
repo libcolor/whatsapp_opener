@@ -15,4 +15,5 @@ public class CellularAutomataSolver {
     public CellularAutomataSolver() {
         maze = new CellularAutomataMaze();
 
-        maze.runWithRules(new int[] {2,3,4,5},new i
+        maze.runWithRules(new int[] {2,3,4,5},new int[] {2,3},700);
+ 
