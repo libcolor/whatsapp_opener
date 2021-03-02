@@ -13,4 +13,4 @@ public class CellularAutomataSolver {
     boolean solved = false;
 
     public CellularAutomataSolver() {
-        maze = new Cellul
+        maze = new CellularAutomataMaze()
