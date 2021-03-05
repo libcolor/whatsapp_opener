@@ -16,4 +16,5 @@ public class CellularAutomataSolver {
         maze = new CellularAutomataMaze();
 
         maze.runWithRules(new int[] {2,3,4,5},new int[] {2,3},700);
-        Point Start = getS
+        Point Start = getStart(maze.mat);
+  
