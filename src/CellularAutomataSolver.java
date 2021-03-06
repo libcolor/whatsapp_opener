@@ -17,4 +17,6 @@ public class CellularAutomataSolver {
 
         maze.runWithRules(new int[] {2,3,4,5},new int[] {2,3},700);
         Point Start = getStart(maze.mat);
-        maze.repaintSingle(Start.x,Start.y,C
+        maze.repaintSingle(Start.x,Start.y,Color.pink);
+
+  
