@@ -20,4 +20,4 @@ public class CellularAutomataSolver {
         maze.repaintSingle(Start.x,Start.y,Color.pink);
 
         Point End = getEnd(maze.mat);
-  
+        maze.repaintS
