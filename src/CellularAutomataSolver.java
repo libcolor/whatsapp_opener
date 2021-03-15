@@ -21,4 +21,6 @@ public class CellularAutomataSolver {
 
         Point End = getEnd(maze.mat);
         maze.repaintSingle(End.x,End.y,Color.GREEN);
-        mat = maze.m
+        mat = maze.mat;
+        try{
+ 
