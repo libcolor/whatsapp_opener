@@ -23,4 +23,4 @@ public class CellularAutomataSolver {
         maze.repaintSingle(End.x,End.y,Color.GREEN);
         mat = maze.mat;
         try{
- 
+            Thre
