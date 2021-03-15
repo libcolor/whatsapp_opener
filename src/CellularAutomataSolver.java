@@ -24,4 +24,5 @@ public class CellularAutomataSolver {
         mat = maze.mat;
         try{
             Thread.sleep(2000);
-        }catch(InterruptedExce
+        }catch(InterruptedException e){}
+    
