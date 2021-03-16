@@ -25,4 +25,4 @@ public class CellularAutomataSolver {
         try{
             Thread.sleep(2000);
         }catch(InterruptedException e){}
-    
+        int count
