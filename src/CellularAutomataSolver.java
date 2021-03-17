@@ -26,4 +26,4 @@ public class CellularAutomataSolver {
             Thread.sleep(2000);
         }catch(InterruptedException e){}
         int count = 0;
-        
+        int fullCo
