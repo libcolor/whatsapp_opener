@@ -29,4 +29,6 @@ public class CellularAutomataSolver {
         int fullCount=0;
 
 
-        boolean f
+        boolean flag = false;
+
+    
