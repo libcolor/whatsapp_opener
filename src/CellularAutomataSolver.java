@@ -32,4 +32,5 @@ public class CellularAutomataSolver {
         boolean flag = false;
 
         while(!flag){
-            wal
+            walls.clear();
+            so
