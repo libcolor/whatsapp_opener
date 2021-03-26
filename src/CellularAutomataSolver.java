@@ -33,4 +33,5 @@ public class CellularAutomataSolver {
 
         while(!flag){
             walls.clear();
-            so
+            solved = false;
+    
