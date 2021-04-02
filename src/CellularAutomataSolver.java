@@ -36,4 +36,5 @@ public class CellularAutomataSolver {
             solved = false;
             for(Point v: getWalls(Start)){
                 walls.add(v);
-  
+            }
+     
