@@ -35,4 +35,5 @@ public class CellularAutomataSolver {
             walls.clear();
             solved = false;
             for(Point v: getWalls(Start)){
-                wall
+                walls.add(v);
+  
