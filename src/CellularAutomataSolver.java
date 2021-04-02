@@ -37,4 +37,5 @@ public class CellularAutomataSolver {
             for(Point v: getWalls(Start)){
                 walls.add(v);
             }
-            int res = venture(Start,false,Col
+            int res = venture(Start,false,Color.BLACK);
+    
