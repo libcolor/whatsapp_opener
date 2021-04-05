@@ -38,4 +38,4 @@ public class CellularAutomataSolver {
                 walls.add(v);
             }
             int res = venture(Start,false,Color.BLACK);
-    
+            if(res==1){
