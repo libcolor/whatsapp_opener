@@ -39,4 +39,4 @@ public class CellularAutomataSolver {
             }
             int res = venture(Start,false,Color.BLACK);
             if(res==1){
-         
+                flag = true
