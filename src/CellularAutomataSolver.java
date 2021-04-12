@@ -41,3 +41,5 @@ public class CellularAutomataSolver {
             if(res==1){
                 flag = true;
             }
+
+            while (
