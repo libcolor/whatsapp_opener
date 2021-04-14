@@ -42,4 +42,5 @@ public class CellularAutomataSolver {
                 flag = true;
             }
 
-            while (
+            while (!solved) {
+   
