@@ -49,4 +49,4 @@ public class CellularAutomataSolver {
                 if (res == 0) {
                     if (!walls.isEmpty()) {
 
-                        Point val
+                        Point val = walls.
