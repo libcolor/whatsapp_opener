@@ -46,4 +46,5 @@ public class CellularAutomataSolver {
                 flag=false;
                 fullCount++;
 
-             
+                if (res == 0) {
+  
