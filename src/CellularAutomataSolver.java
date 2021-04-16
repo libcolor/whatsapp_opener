@@ -47,4 +47,6 @@ public class CellularAutomataSolver {
                 fullCount++;
 
                 if (res == 0) {
-                    if (!walls
+                    if (!walls.isEmpty()) {
+
+  
