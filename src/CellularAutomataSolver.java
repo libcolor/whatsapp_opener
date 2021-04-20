@@ -50,4 +50,4 @@ public class CellularAutomataSolver {
                     if (!walls.isEmpty()) {
 
                         Point val = walls.pop();
-                        maze.r
+                        maze.repaintSingle(val.x, val
