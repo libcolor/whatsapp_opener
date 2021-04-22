@@ -54,4 +54,4 @@ public class CellularAutomataSolver {
                         res = venture(val, true, Color.BLACK);
 
                         if (res == 0) {
-        
+                          
