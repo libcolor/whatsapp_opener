@@ -51,4 +51,4 @@ public class CellularAutomataSolver {
 
                         Point val = walls.pop();
                         maze.repaintSingle(val.x, val.y, Color.RED);
-  
+                     
