@@ -53,4 +53,4 @@ public class CellularAutomataSolver {
                         maze.repaintSingle(val.x, val.y, Color.RED);
                         res = venture(val, true, Color.BLACK);
 
-     
+                      
