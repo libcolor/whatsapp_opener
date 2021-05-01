@@ -56,4 +56,5 @@ public class CellularAutomataSolver {
                         if (res == 0) {
                             count++;
                             flag = true;
-                            maze.repaintSingle(val.x, val.y, Col
+                            maze.repaintSingle(val.x, val.y, Color.GRAY);
+         
