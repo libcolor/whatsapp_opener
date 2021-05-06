@@ -69,4 +69,6 @@ public class CellularAutomataSolver {
 
             ResetBesidesRED();
         }
-        ResetBeside
+        ResetBesidesRED();
+
+        maze
