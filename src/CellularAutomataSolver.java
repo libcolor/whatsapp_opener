@@ -71,4 +71,4 @@ public class CellularAutomataSolver {
         }
         ResetBesidesRED();
 
-        maze
+        maze.repaintSingle(Start.x,St
