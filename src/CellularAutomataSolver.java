@@ -74,4 +74,5 @@ public class CellularAutomataSolver {
         maze.repaintSingle(Start.x,Start.y,Color.pink);
         maze.repaintSingle(End.x,End.y,Color.cyan);
     }
-    public static void m
+    public static void main(String[] args){
+ 
