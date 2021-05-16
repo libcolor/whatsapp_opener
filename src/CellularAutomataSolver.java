@@ -75,4 +75,4 @@ public class CellularAutomataSolver {
         maze.repaintSingle(End.x,End.y,Color.cyan);
     }
     public static void main(String[] args){
-        new
+        new Cellula
