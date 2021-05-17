@@ -80,4 +80,4 @@ public class CellularAutomataSolver {
 
     }
 
-  
+    public Point g
