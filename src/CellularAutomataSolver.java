@@ -81,4 +81,4 @@ public class CellularAutomataSolver {
     }
 
     public Point getStart(JPanel[][] mat){
-        bool
+        boolean flag = true;
