@@ -83,4 +83,4 @@ public class CellularAutomataSolver {
     public Point getStart(JPanel[][] mat){
         boolean flag = true;
         while(flag){
-            int x = (int)(Ma
+            int x = (int)(Math.random()*
