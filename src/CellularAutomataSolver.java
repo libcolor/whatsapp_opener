@@ -84,4 +84,4 @@ public class CellularAutomataSolver {
         boolean flag = true;
         while(flag){
             int x = (int)(Math.random()*mat.length);
-            int y = (int)(
+            int y = (int)(Math.random()*mat[
