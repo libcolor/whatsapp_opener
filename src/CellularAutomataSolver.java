@@ -89,4 +89,4 @@ public class CellularAutomataSolver {
                 return new Point(x,y);
             }
         }
-     
+        return new Point
