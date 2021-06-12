@@ -92,4 +92,4 @@ public class CellularAutomataSolver {
         return new Point(0,0);
     }
 
-    public Point g
+    public Point getEnd(JPanel
