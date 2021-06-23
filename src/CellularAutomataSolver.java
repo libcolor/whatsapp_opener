@@ -95,4 +95,5 @@ public class CellularAutomataSolver {
     public Point getEnd(JPanel[][] mat){
         boolean flag = true;
         while(flag){
-            int x = (int)(Math.random()*mat.len
+            int x = (int)(Math.random()*mat.length);
+           
