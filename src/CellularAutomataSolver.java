@@ -94,4 +94,4 @@ public class CellularAutomataSolver {
 
     public Point getEnd(JPanel[][] mat){
         boolean flag = true;
-        
+        while(flag){
