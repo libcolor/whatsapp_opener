@@ -97,4 +97,4 @@ public class CellularAutomataSolver {
         while(flag){
             int x = (int)(Math.random()*mat.length);
             int y = (int)(Math.random()*mat[0].length);
-            if(
+            if(mat[x][y].getBackgrou
