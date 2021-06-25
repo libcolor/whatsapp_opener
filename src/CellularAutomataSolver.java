@@ -98,4 +98,5 @@ public class CellularAutomataSolver {
             int x = (int)(Math.random()*mat.length);
             int y = (int)(Math.random()*mat[0].length);
             if(mat[x][y].getBackground()==Color.WHITE){
-                return new 
+                return new Point(x,y);
+    
