@@ -100,4 +100,5 @@ public class CellularAutomataSolver {
             if(mat[x][y].getBackground()==Color.WHITE){
                 return new Point(x,y);
             }
-        
+        }
+        retur
