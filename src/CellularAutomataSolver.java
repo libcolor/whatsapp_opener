@@ -102,4 +102,6 @@ public class CellularAutomataSolver {
             }
         }
         return new Point(0,0);
- 
+    }
+
+    public 
