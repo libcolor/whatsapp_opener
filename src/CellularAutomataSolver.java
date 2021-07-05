@@ -104,4 +104,5 @@ public class CellularAutomataSolver {
         return new Point(0,0);
     }
 
-    public Point[] getAdjacent
+    public Point[] getAdjacent(Point p) {
+    
