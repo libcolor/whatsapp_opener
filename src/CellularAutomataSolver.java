@@ -105,4 +105,4 @@ public class CellularAutomataSolver {
     }
 
     public Point[] getAdjacent(Point p) {
-    
+        Stack<Point> po
