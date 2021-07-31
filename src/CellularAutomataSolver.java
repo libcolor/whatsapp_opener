@@ -107,4 +107,4 @@ public class CellularAutomataSolver {
     public Point[] getAdjacent(Point p) {
         Stack<Point> pos = new Stack<>();
         try {
-            if (mat[p.x - 1][p.y].getBackground() == Color.white||mat[p.x - 1][p.y].getBackgroun
+            if (mat[p.x - 1][p.y].getBackground() == Color.white||mat[p.x - 1][p.y].getBackground() == Colo
