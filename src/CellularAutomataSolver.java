@@ -113,4 +113,4 @@ public class CellularAutomataSolver {
         } catch (Exception e) {
         }
         try {
-            if
+            if (mat[p.x][p.
