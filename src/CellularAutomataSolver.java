@@ -118,4 +118,5 @@ public class CellularAutomataSolver {
             }
         } catch (Exception e) {
         }
-     
+        try {
+    
