@@ -119,4 +119,4 @@ public class CellularAutomataSolver {
         } catch (Exception e) {
         }
         try {
-            if (mat[p.x +
+            if (mat[p.x + 1][p.y].getBac
