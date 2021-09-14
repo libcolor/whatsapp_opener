@@ -122,4 +122,5 @@ public class CellularAutomataSolver {
             if (mat[p.x + 1][p.y].getBackground() == Color.white||mat[p.x +1][p.y].getBackground() == Color.GREEN) {
                 pos.push(new Point(p.x + 1, p.y));
             }
-        } 
+        } catch (Exception e) {
+    
