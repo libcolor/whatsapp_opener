@@ -130,4 +130,5 @@ public class CellularAutomataSolver {
             }
         } catch (Exception e) {
         }
-        Point[] result = new Point[pos.size()
+        Point[] result = new Point[pos.size()];
+        int
