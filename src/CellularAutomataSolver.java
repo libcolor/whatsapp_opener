@@ -134,4 +134,5 @@ public class CellularAutomataSolver {
         int v = 0;
         while (!pos.isEmpty()) {
             result[v++] = pos.pop();
-    
+        }
+        
