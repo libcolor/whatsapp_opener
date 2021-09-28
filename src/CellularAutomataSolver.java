@@ -136,4 +136,5 @@ public class CellularAutomataSolver {
             result[v++] = pos.pop();
         }
         return result;
-  
+    }
+    public bool
