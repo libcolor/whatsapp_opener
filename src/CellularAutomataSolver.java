@@ -132,4 +132,5 @@ public class CellularAutomataSolver {
         }
         Point[] result = new Point[pos.size()];
         int v = 0;
-        whi
+        while (!pos.isEmpty()) {
+ 
