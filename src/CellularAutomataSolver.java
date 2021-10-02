@@ -137,4 +137,5 @@ public class CellularAutomataSolver {
         }
         return result;
     }
-    public boolean NotBoundry(Po
+    public boolean NotBoundry(Point p){
+      
