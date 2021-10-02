@@ -138,4 +138,4 @@ public class CellularAutomataSolver {
         return result;
     }
     public boolean NotBoundry(Point p){
-      
+       return( p.x>1&&p.x<
