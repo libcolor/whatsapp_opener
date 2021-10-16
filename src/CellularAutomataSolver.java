@@ -141,4 +141,4 @@ public class CellularAutomataSolver {
        return( p.x>1&&p.x<mat.length-1&&p.y>1&&p.y<mat[0].length-1);
     }
         public Point[] getWalls(Point p){
-            Stack<Poi
+            Stack<Point> pos = n
