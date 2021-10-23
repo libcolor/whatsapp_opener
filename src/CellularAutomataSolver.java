@@ -142,4 +142,5 @@ public class CellularAutomataSolver {
     }
         public Point[] getWalls(Point p){
             Stack<Point> pos = new Stack<>();
-     
+            try {
+       
