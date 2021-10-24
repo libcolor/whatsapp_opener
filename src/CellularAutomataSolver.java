@@ -143,4 +143,4 @@ public class CellularAutomataSolver {
         public Point[] getWalls(Point p){
             Stack<Point> pos = new Stack<>();
             try {
-                if (mat[p.x - 1][p.y].getBackground()==Color.BLACK&&NotBoun
+                if (mat[p.x - 1][p.y].getBackground()==Color.BLACK&&NotBoundry(new Point(p.x-1,
