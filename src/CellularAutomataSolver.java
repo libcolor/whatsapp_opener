@@ -143,4 +143,4 @@ public class CellularAutomataSolver {
         public Point[] getWalls(Point p){
             Stack<Point> pos = new Stack<>();
             try {
-                if 
+                if (mat[p.x - 1][p.y]
