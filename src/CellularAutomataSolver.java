@@ -147,4 +147,5 @@ public class CellularAutomataSolver {
                     pos.push(new Point(p.x-1,p.y));
                 }
             }catch(Exception e){}
-           
+            try {
+               
