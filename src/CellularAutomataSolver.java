@@ -153,4 +153,4 @@ public class CellularAutomataSolver {
                 }
             }catch(Exception e){}
             try {
-                if 
+                if (mat[p.x + 1][p.y].ge
