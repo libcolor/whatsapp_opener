@@ -156,4 +156,5 @@ public class CellularAutomataSolver {
                 if (mat[p.x + 1][p.y].getBackground()==Color.BLACK&&NotBoundry(new Point(p.x+1,p.y))){
                     pos.push(new Point(p.x+1,p.y));
                 }
-            }catch(Excepti
+            }catch(Exception e){}
+         
