@@ -158,4 +158,4 @@ public class CellularAutomataSolver {
                 }
             }catch(Exception e){}
             try {
-                if (mat[p.x][p.
+                if (mat[p.x][p.y-1].getBackgroun
