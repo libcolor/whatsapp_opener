@@ -158,4 +158,4 @@ public class CellularAutomataSolver {
                 }
             }catch(Exception e){}
             try {
-                if (mat[p.x][p.y-1].getBackground()==Color.BLACK&&NotBoundry(new 
+                if (mat[p.x][p.y-1].getBackground()==Color.BLACK&&NotBoundry(new Point(p.x,p.y-1)))
