@@ -161,4 +161,4 @@ public class CellularAutomataSolver {
                 if (mat[p.x][p.y-1].getBackground()==Color.BLACK&&NotBoundry(new Point(p.x,p.y-1))){
                     pos.push(new Point(p.x,p.y-1));
                 }
-   
+            }ca
