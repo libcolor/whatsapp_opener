@@ -164,4 +164,5 @@ public class CellularAutomataSolver {
             }catch(Exception e){}
             Point[] result = new Point[pos.size()];
             int v =0;
-            while(!pos.isEmpty(
+            while(!pos.isEmpty()){
+              
