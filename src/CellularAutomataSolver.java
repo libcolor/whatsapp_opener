@@ -170,4 +170,4 @@ public class CellularAutomataSolver {
 
 
     }
-    public int venture(Point p,
+    public int venture(Point p,boolean wall,C
