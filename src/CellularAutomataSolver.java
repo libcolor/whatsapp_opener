@@ -172,4 +172,4 @@ public class CellularAutomataSolver {
     }
     public int venture(Point p,boolean wall,Color curCol) {
             if(solved)return 0;
-        
+            if(curCol== Color.
