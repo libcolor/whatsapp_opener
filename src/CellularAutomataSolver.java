@@ -174,4 +174,4 @@ public class CellularAutomataSolver {
             if(solved)return 0;
             if(curCol== Color.BLACK){
                 curCol = new Color(
-                     
+                        (floa
