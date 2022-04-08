@@ -175,4 +175,5 @@ public class CellularAutomataSolver {
             if(curCol== Color.BLACK){
                 curCol = new Color(
                         (float)(Math.random()),
-                        (float
+                        (float)(Math.random()),
+ 
