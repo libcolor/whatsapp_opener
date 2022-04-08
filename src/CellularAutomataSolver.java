@@ -176,4 +176,4 @@ public class CellularAutomataSolver {
                 curCol = new Color(
                         (float)(Math.random()),
                         (float)(Math.random()),
- 
+                       
