@@ -180,4 +180,4 @@ public class CellularAutomataSolver {
 
                 );
             }
-            if(mat[p.x][p
+            if(mat[p.x][p.y].getBackgrou
