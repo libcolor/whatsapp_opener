@@ -180,4 +180,4 @@ public class CellularAutomataSolver {
 
                 );
             }
-            if(mat[p.x][p.y].getBackgrou
+            if(mat[p.x][p.y].getBackground()==Color.GRE
