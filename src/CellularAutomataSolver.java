@@ -179,4 +179,5 @@ public class CellularAutomataSolver {
                         (float)(Math.random())
 
                 );
-       
+            }
+         
