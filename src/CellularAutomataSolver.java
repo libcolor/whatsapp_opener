@@ -181,4 +181,5 @@ public class CellularAutomataSolver {
                 );
             }
             if(mat[p.x][p.y].getBackground()==Color.GREEN){
-                r
+                return 1;
+       
