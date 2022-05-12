@@ -184,4 +184,5 @@ public class CellularAutomataSolver {
                 return 1;
             }
             else {
-                
+                if(!wall) {
+   
