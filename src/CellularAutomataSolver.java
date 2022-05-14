@@ -185,4 +185,4 @@ public class CellularAutomataSolver {
             }
             else {
                 if(!wall) {
-   
+                    maze.re
