@@ -185,4 +185,5 @@ public class CellularAutomataSolver {
             }
             else {
                 if(!wall) {
-                    maze.repaintSingle(p.x, p.y, c
+                    maze.repaintSingle(p.x, p.y, curCol);
+       
