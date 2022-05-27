@@ -187,4 +187,4 @@ public class CellularAutomataSolver {
                 if(!wall) {
                     maze.repaintSingle(p.x, p.y, curCol);
                 }else maze.repaintSingle(p.x,p.y,Color.RED);
-                Point[] nextvals 
+                Point[] nextvals = getAdjacent(p);
