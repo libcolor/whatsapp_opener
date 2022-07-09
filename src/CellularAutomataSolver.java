@@ -189,4 +189,5 @@ public class CellularAutomataSolver {
                 }else maze.repaintSingle(p.x,p.y,Color.RED);
                 Point[] nextvals = getAdjacent(p);
                 for (Point z : getWalls(p)) {
-                    if (!walls.co
+                    if (!walls.contains(z)) {
+       
