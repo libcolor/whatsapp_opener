@@ -191,4 +191,6 @@ public class CellularAutomataSolver {
                 for (Point z : getWalls(p)) {
                     if (!walls.contains(z)) {
                         walls.push(z);
-        
+                    }
+
+      
