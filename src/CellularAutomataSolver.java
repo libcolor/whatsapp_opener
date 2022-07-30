@@ -190,4 +190,5 @@ public class CellularAutomataSolver {
                 Point[] nextvals = getAdjacent(p);
                 for (Point z : getWalls(p)) {
                     if (!walls.contains(z)) {
-                        walls.pu
+                        walls.push(z);
+        
