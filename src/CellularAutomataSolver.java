@@ -195,4 +195,4 @@ public class CellularAutomataSolver {
 
                 }
 
-      
+                int 
