@@ -195,4 +195,5 @@ public class CellularAutomataSolver {
 
                 }
 
-                int 
+                int temp =0;
+             
