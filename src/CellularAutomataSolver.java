@@ -193,4 +193,6 @@ public class CellularAutomataSolver {
                         walls.push(z);
                     }
 
+                }
+
       
