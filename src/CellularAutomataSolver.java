@@ -196,4 +196,6 @@ public class CellularAutomataSolver {
                 }
 
                 int temp =0;
-                for (Point next : nextvals)
+                for (Point next : nextvals) {
+
+          
