@@ -198,4 +198,5 @@ public class CellularAutomataSolver {
                 int temp =0;
                 for (Point next : nextvals) {
 
-                    if(mat[next.x][next.y].getBackground()=
+                    if(mat[next.x][next.y].getBackground()==Color.GREEN){
+ 
