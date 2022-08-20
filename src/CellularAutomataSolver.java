@@ -198,4 +198,4 @@ public class CellularAutomataSolver {
                 int temp =0;
                 for (Point next : nextvals) {
 
-                    if(mat[next.x][nex
+                    if(mat[next.x][next.y].getBackground()=
