@@ -201,4 +201,5 @@ public class CellularAutomataSolver {
                     if(mat[next.x][next.y].getBackground()==Color.GREEN){
                         solved = true;
                         return 1;
+                    }
                  
