@@ -202,4 +202,5 @@ public class CellularAutomataSolver {
                         solved = true;
                         return 1;
                     }
-                 
+                    else {
+              
