@@ -203,4 +203,5 @@ public class CellularAutomataSolver {
                         return 1;
                     }
                     else {
-                        int tempvar = venture(next
+                        int tempvar = venture(next,false,curCol);
+      
