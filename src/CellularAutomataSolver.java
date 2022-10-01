@@ -203,4 +203,4 @@ public class CellularAutomataSolver {
                         return 1;
                     }
                     else {
-              
+                        int temp
