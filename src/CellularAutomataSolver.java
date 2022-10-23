@@ -205,4 +205,6 @@ public class CellularAutomataSolver {
                     else {
                         int tempvar = venture(next,false,curCol);
                         if (tempvar ==1){//means that it is apart of the solvable path
-                            maze.repaintSingle(next.x,next.y,Colo
+                            maze.repaintSingle(next.x,next.y,Color.GREEN);
+
+       
