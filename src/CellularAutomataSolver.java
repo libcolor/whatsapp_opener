@@ -207,4 +207,5 @@ public class CellularAutomataSolver {
                         if (tempvar ==1){//means that it is apart of the solvable path
                             maze.repaintSingle(next.x,next.y,Color.GREEN);
 
-                       
+                        }
+              
