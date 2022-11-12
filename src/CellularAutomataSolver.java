@@ -208,4 +208,5 @@ public class CellularAutomataSolver {
                             maze.repaintSingle(next.x,next.y,Color.GREEN);
 
                         }
-                        temp+= t
+                        temp+= tempvar;
+          
