@@ -209,4 +209,6 @@ public class CellularAutomataSolver {
 
                         }
                         temp+= tempvar;
-          
+                    }
+
+    
