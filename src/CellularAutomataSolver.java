@@ -212,4 +212,5 @@ public class CellularAutomataSolver {
                     }
 
                 }
-                if(temp!=0) {//need to f
+                if(temp!=0) {//need to fix this
+            
