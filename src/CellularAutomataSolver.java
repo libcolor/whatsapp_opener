@@ -213,4 +213,4 @@ public class CellularAutomataSolver {
 
                 }
                 if(temp!=0) {//need to fix this
-                    maze.repaintSingle
+                    maze.repaintSingle(p.x,p.y,Col
