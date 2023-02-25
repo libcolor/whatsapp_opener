@@ -221,4 +221,4 @@ public class CellularAutomataSolver {
         return 0;
 
     }
-    public void Reset
+    public void ResetBesidesRED()
