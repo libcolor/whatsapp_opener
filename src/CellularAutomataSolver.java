@@ -221,4 +221,5 @@ public class CellularAutomataSolver {
         return 0;
 
     }
-    public void ResetBesidesRED()
+    public void ResetBesidesRED(){
+        for(int i =0;
