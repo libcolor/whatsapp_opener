@@ -218,4 +218,7 @@ public class CellularAutomataSolver {
                 }
 
             }
-        re
+        return 0;
+
+    }
+    p
