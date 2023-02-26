@@ -222,4 +222,4 @@ public class CellularAutomataSolver {
 
     }
     public void ResetBesidesRED(){
-        for(int i =0;
+        for(int i =0;i<mat.length;i++){
