@@ -227,4 +227,4 @@ public class CellularAutomataSolver {
                 if(mat[i][j].getBackground()==Color.GRAY){
                     maze.repaintSingle(i,j,Color.BLACK);
                 }
-                if(mat[i][j].getBackground()!=Color.BLACK&&mat[i]
+                if(mat[i][j].getBackground()!=Color.BLACK&&mat[i][j].getBackg
