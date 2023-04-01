@@ -231,4 +231,6 @@ public class CellularAutomataSolver {
                     maze.repaintSingle(i,j,Color.white);
                 }
 
-         
+            }
+        }
+ 
